@@ -1,3 +1,5 @@
+### FRONTEND NOTES
+
 ### Plain CSS
 Written in plain CSS.
 - a.css - Home Page Styles
@@ -9,4 +11,3 @@ It's fast, flexible, and reliable — with zero-runtime.
 [Tailwind CSS](https://tailwindcss.com/docs/installation/tailwind-cli)
 
 - main.css - Tailwind CSS
-

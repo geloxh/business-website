@@ -6,3 +6,18 @@ A modern dynamic pages & progressive website.
 - ReactJS
 - TailwindCSS
 - MongoDB
+
+```
+project/
+|----frontend/
+|     |----src/
+|         |----components/
+|         |----pages/
+|         |----styles/
+|----backend/
+|     |----controllers/
+|     |----routes/
+|     |----models/
+|     |----middleware/
+|     |----config/
+```
