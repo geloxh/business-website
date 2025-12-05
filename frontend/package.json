@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Frontend for business website",
   "type": "module",
-  "main": "src/main.jsx",
+  "main": "a.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
