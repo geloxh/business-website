@@ -1,35 +1,22 @@
 {
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.17",
-    "express": "^5.2.1",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "tailwindcss": "^4.1.17"
-  },
-  "name": "business-website",
+  "name": "business-website-frontend",
   "version": "1.0.0",
-  "description": "A modern dynamic pages & progressive website.",
-  "main": "src/a.jsx",
+  "description": "Frontend for business website",
+  "type": "module",
+  "main": "src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geloxh/business-website.git"
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/geloxh/business-website/issues"
-  },
-  "homepage": "https://github.com/geloxh/business-website#readme",
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.1",
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17",
     "vite": "^7.2.6"
   }
 }
