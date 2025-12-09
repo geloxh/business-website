@@ -3,7 +3,7 @@ import Home from '../pages/Home.jsx';
 
 function Main() {
     return (
-        <main>
+        <main className='min-h-screen'>
             <Home />
         </main>
     )
