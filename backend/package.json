@@ -1,17 +1,22 @@
 {
-  "name": "business-website-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend API for business website",
-  "main": "server.js",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1",
-    "mongodb": "^6.0.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0"
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.1",
+    "nodemon": "^3.1.11"
   }
 }
