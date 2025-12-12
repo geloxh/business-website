@@ -3,13 +3,22 @@
  * @author geloxh
  */
 
+import express from "express";
+import dotenv from "dotenv";
 
-const express = require("express");
-const cors = require("cors");
-require("dotenv").config();
+import productRoutes from "./presentation/routes/productRoutes.js";
+import { connectDB } from "./config/database.js";
 
 const app = express();
-app.use(cors());
 app.use(express.json());
 
-app.listen(5000, () => console.log("API running on port 5000"));
+// db
+connectDB();
+
+// Routes
+app.use("/api/products", productRoutes);
+
+// Start Server
+app.listen(process.env.PORT || 5000, () =>
+    console.log(`Server running on port ${process.env.PORT}`)
+);
